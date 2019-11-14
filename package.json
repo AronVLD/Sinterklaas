@@ -1,0 +1,22 @@
+{
+  "name": "sinterklaasverlanglijstje",
+  "version": "1.0.0",
+  "description": "Sinterklaas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AronVLD/Sinterklaas.git"
+  },
+  "author": "Aron van de Ridder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AronVLD/Sinterklaas/issues"
+  },
+  "homepage": "https://github.com/AronVLD/Sinterklaas#readme",
+  "devDependencies": {
+    "@types/bootstrap": "^4.3.1"
+  }
+}
