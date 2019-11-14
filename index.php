@@ -17,37 +17,23 @@
 
 <body>
   <main class="container">
-    <div class="row" id="header">
-      <div class="col-12">
-        <h1> Sinterklaas </h1>
-      </div>
+<?php include ("./pages/header.php") ?>
 
     </div>
     <div class="row bg-light">
       <div class="col-12" id="navigation">
-      <?php
-      include ("./navigation.php")
-      ?>
+      <?php include ("./pages/navigation.php")?>
       </div>
     </div>
     <div class="row" id="content">
-      <div class="col-12">
-        <div class="row">
-          <div class="col-6">
-            <img src="./img/pakje_1.jpg" alt="pakje" class="img-fluid">
-          </div>
-          <div class="col-6 handlee">
-            <h6>dit is text over sinterklaas en zijn kinderen</h6>
-          </div>
+    <?php include ("./pages/content.php")?>
         </div>
 
         dit is wat content
       </div>
     </div>
     <div class="row" id="footer">
-      <div class="col-12">
-        <H2>Daar komt hij in zijn stoomboot aan</H2>
-      </div>
+    <?php include ("./pages/footer.php")?>
     </div>
   </main>
 
