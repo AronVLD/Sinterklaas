@@ -1,0 +1,28 @@
+#header {
+    text-align: center;
+background-color: brown;
+color: gold;
+margin-bottom: 20px;
+}
+#footer{
+    text-align: center;
+    background-color: gold;
+    color: brown;
+}
+#navigation {
+    background-color: black;
+    color: chocolate;
+}
+#content{ 
+    border: 5px solid gold;
+    color: gold;
+    background-color: brown;
+    min-height: 450px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.handlee{ 
+    font-family: 'Handlee', cursive;
+}
